@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(120deg, rgb(227, 230, 232,.4) 0%, rgb(235, 237, 238,.4) 100%), url("../images/40883.jpg");
+    background-size: cover;
+    width: 100%;
+}
+/*contact style*/
+.wrap{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+.container-wrapper{
+    border-radius: 10px;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+.header h2{
+    margin-bottom: auto;
+}
+.slide{
+    position: relative;
+    left: -10em;
+    width: 160% !important;
+}
+form{
+    padding: 20px;
+    max-width: 40em;
+}
+.btn-custom-style{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    border: none;
+    border-radius: 0px 10px 0px 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+form i{
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    display: flex;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.login-link{
+    position: relative;
+    left: 20px;
+    top: 10px !important;
+}
+
+.login-link a{
+    text-decoration: none;
+   color: #f6d365;
+}
